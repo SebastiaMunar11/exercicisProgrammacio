@@ -1,33 +1,42 @@
 package com.company.les09;
 
-import com.company.les09.ClassMap;
-
 class ClassMapTest{
 
   public static void main(String args[]){
     // creating ChallengeClassMap instance
     ClassMap cm =new ClassMap();
-    
+
     // Initialize the array
     cm.setClassMap();
 
-    for(int row= 0; row>cm.deskarray.length; row++){
-      for(int col= 0; row>cm.deskarray[0].length; col++){
-        cm.deskarray[row][col] = "DUC";
-      }
-    }
-    
+    // Allocating position to one student
+    cm.name = "Ann";
+    cm.setDesk();
+
+    //Allocating position to another student
+    cm.name = "Bond";
+    cm.setDesk();
+
+    //Allocating position to third student
+    cm.name = "Cindy";
+    cm.setDesk();
+
+    //Allocating position to fourth student
+    cm.name = "Donald";
+    cm.setDesk();
+
 
     //Displaying the map of the class 
     cm.displayDeskMap();
-    
-    //Challenge Lab:  Searching the desk of a student 
-    //cm.name = "Donald";
-    //cm.searchDesk();
 
-   //Challenge Lab: Searching the desk of another student 
+    //Challenge Lab:  Searching the desk of a student 
+    cm.name = "Donald";
+    cm.searchDesk();
+
+
+    //Challenge Lab: Searching the desk of another student
     //cm.name = "Ronn";
     //cm.searchDesk();
   } //end main
- }//end class
+}//end class
 
