@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/labs_solucions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/udacity-git-course/course-git-blog-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/udacity-git-course/new-git-project" vcs="Git" />
   </component>
